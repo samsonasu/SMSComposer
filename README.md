@@ -31,6 +31,7 @@ window.plugins.smsComposer.showSMSComposer('3424221122,2134463330', 'hello');
 
 * showSMSComposerWithCB takes a callback as its first parameter.  
 * 0, 1, 2, or 3 will be passed to the callback when the text message has been attempted.
+<code>
 window.plugins.smsComposer.showSMSComposerWithCB(function(result){
 
 	if(result == 0)
@@ -43,7 +44,7 @@ window.plugins.smsComposer.showSMSComposerWithCB(function(result){
 		alert("Not Sent.");		
 
 },'3424221122,2134463330', 'hello');
-
+</code>
 
 * A fully working example as index.html has been added to this repository.
 
