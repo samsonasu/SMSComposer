@@ -5,8 +5,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import "PhoneGapCommand.h"
-@interface SMSComposer : PhoneGapCommand {
+#import <PhoneGap/PGPlugin.h>
+@interface SMSComposer : PGPlugin {
 }
 
 - (void)showSMSComposer:(NSArray*)arguments withDict:(NSDictionary*)options;
